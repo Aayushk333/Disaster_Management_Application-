@@ -8,10 +8,13 @@ The Disaster management cycle illustrates the ongoing process by which governmen
 
 
 
-                                <img src="CDM_cycle.jpg" style="width:500px;height:300px;">
+   <img  align="center" src="CDM_cycle.jpg" style="width:500px;height:300px;">
 
 
 
 
 
-This project deals with the Response state of the CDM. It includes the actions carried out in a disaster situation with the objective to save life, alleviate suffering and reduce economic losses. The main tool in response is the implementation of plans which were prepared prior to the event. In this project I have developed a mobile app that can be used as an helpline portal for its users. The app is made in the DART language using the Flutter framework. Hence it is compatible with both Android and iOS. In this project I have used Firebase as the backend service.
+This project deals with the Response state of the CDM. It includes the actions carried out in a disaster situation with the objective to save life, alleviate suffering and reduce economic losses. The main tool in response is the implementation of plans which were prepared prior to the event. In this project I have developed a mobile app that can be used as an helpline portal for its users. The app is made in the DART language using the Flutter framework. Hence it is compatible with both Android and iOS. In this project I have used Firebase as the backend service. 
+
+
+
