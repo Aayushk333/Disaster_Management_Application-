@@ -8,7 +8,8 @@ The Disaster management cycle illustrates the ongoing process by which governmen
 
 
 
-<img src="CDM_cycle.jpg" style="width:500px;height:300px;">
+                                <img src="CDM_cycle.jpg" style="width:500px;height:300px;">
+
 
 
 
