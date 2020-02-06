@@ -1,15 +1,13 @@
-# Disaster_Management_Application
-
-## DEVELOPMENT OF CROSS PLATFORM MOBILE APPLICATION FOR CROWD SOURCING IN DISASTER MANAGEMENT
+# DEVELOPMENT OF CROSS PLATFORM MOBILE APPLICATION FOR CROWD SOURCING IN DISASTER MANAGEMENT
 
 This project , titled , ***“DEVELOPMENT OF CROSS PLATFORM MOBILE APPLICATION FOR CROWD SOURCING IN DISASTER MANAGEMENT”*** , aims to reduce or avoid the potential losses from hazards, assure prompt and appropriate assistance to victims of disaster, and achieve rapid and effective recovery. Communication during disaster time is very crucial for both rescue team and victim. Emergency never comes with prior intimation. The System is intended to function in case of emergencies in society.The emergencies include Fire, Medical Emergencies, accident and External Emergencies (Earthquake, Floods, Storm). The system works on the principles of client-Server system, wherein the server responds to the requests of the Clients. 
 The Disaster management cycle illustrates the ongoing process by which governments, businesses, and civil society plan for and reduce the impact of disasters, react during and immediately following a disaster, and take steps to recover after a disaster has occurred. Appropriate actions at all points in the cycle lead to greater preparedness, better warnings, reduced vulnerability or the prevention of disasters during the next iteration of the cycle. There are 4 phases of the **CDM Cycle** :
 
 
 
-
-   <img  align="right" src="CDM_cycle.jpg" style="width:500px;height:300px;">
-
+   <p align='center'>
+   <img src="CDM_cycle.jpg" style="width:500px;height:400px;">
+   </p>
 
 
 
@@ -20,9 +18,9 @@ This project deals with the Response state of the CDM. It includes the actions c
 
 Communications technologies – including social and mobile tools – plays an ever increasing role in emergency response and rescue efforts , as well as overall personal safety. In order to achieve this aim, the objectives have been formulated as follows :
 
-*To develop a cross platform application for providing emergency assistance 
-*For Speeding recovery operations
-*Returning systems to normal level
+*To develop a cross platform application for providing emergency assistance.* 
+*For Speeding recovery operations.*
+*Returning systems to normal level.*
 
 
 
