@@ -102,5 +102,24 @@ A flutter project contains all the folders shown in Table :
 </table>
        
 
+### Widgets and their role in a Flutter App
 
+A Widget is the building block of the ***user interface components*** in an app. Using widgets one can easily create their own user interface effortlessly. Whatever the user views on a screen of a flutter app is basically a widget. For e.g : App Bar, Navigation Bar, Header Image, Texts, List of things, etc. In fact the entire page that we see is a Widget and we call it the **Scaffold**. When widgets are contained inside some widgets, they are called child widgets. So this places Scaffold widget at the root of the widget tree.
+NOTE : A widget is not only a user component but it also contains business or programming logic. For example , a simple button widget will not only contain the visuals of a button but also the logic to handle a tap or a press event.
+
+
+### The MaterialApp Widget
+
+The MaterialApp is a special widget that wraps around the entire app and enables you to use themes navigation and home. So the first parameters that we define inside the material app is :
+
+1. title : The title is a one line description to help the device to identify the app for the user.
+2. home : It is a named parameter and accepts a widget that becomes the Default route* for the
+app.
+
+*Default route means that whenever the app opens the first page that you see on the app would be the widget defined inside home.
+
+
+### Hot Reload and Hot Restart
+
+Two of Flutter’s most powerful tools which allows users to build apps faster namely hot reload and hot restart . Flutters hot reload feature helps to quickly and easily experiment, build UIs , add features and fix bugs within the code. The Flutter framework has been optimized to make rerunning build methods fast so that we can just rebuild anything that needs updating rather than having to individually change instances of widgets. Hot reload works by injecting updated source code files into the already running Dart Virtual Machine (VM).After this VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree allowing you to quickly view the effects of your changes. On the other hand a hot restart is like a completely new start of the app over the connected device. It collaborates all the changes in the app from beginning to end , and starts it into our connected device.
 
