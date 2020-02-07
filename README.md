@@ -18,9 +18,44 @@ This project deals with the Response state of the CDM. It includes the actions c
 
 Communications technologies – including social and mobile tools – plays an ever increasing role in emergency response and rescue efforts , as well as overall personal safety. In order to achieve this aim, the objectives have been formulated as follows :
 
-*To develop a cross platform application for providing emergency assistance.* 
-*For Speeding recovery operations.*
-*Returning systems to normal level.*
+*To develop a cross platform application for providing emergency assistance.
+*For Speeding recovery operations.
+*Returning systems to normal level.
+
+
+## TECHNICAL SPECIFICATION
+
+### FLUTTER
+
+Flutter was launched by Google and is an open-source mobile application development SDK.
+It is a popular cross-platform app development and is written in the Dart language. It allows the programmer to develop applications for both android and iOS platforms , using a single code base. This software is best suited for the development of the hybrid apps. It makes use of the 2D rendering engine called Skia to develop the visuals. Flutter code is compiled directly into Native arm code , for the respective platform. So for iOS it will compile into Swift code and similarly , for android , it compiles to Java or Kotlin arm code. Now since this code conversion takes place during runtime , the application thus produced is no different from a native mobile application. 
+
+### Structure of a flutter project
+
+A flutter project contains all the folders shown in Table :
+
+<table>
+   <thead>
+      <tr>
+         <th>S.No</th>
+         <th>Folder Name</th>
+         <th>Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>1</td>
+         <td>Android Folder</td>
+         <td>Contains all the android related code and files in this project.</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>iOS Folder</td>
+         <td>Contains all the iOS related code and files in this project.</td>
+      </tr>
+   </tbody>
+</table>
+       
 
 
 
