@@ -53,6 +53,51 @@ A flutter project contains all the folders shown in Table :
          <td>iOS Folder</td>
          <td>Contains all the iOS related code and files in this project.</td>
       </tr>
+      <tr>
+         <td>3</td>
+         <td>Lib Folder</td>
+         <td>It is the main folder where we have to write all of our application code. The default project template               currently only contains the main.dart file here which is kind of like an entry point for our flutter application.</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>Test Folder</td>
+         <td>This folder is used to store and manage the testing code for the application.</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>.gitignore</td>
+         <td>file is a hidden file that an IDE uses to store the list of files which need to be ignored when a source code is uploaded into any git versioning system like for eg GitHub.</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>.metadata</td>
+         <td>file is also a hidden file which is used by IDEs to track the properties of a particular flutter project in question.</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>.packages</td>
+         <td>file is one of the package managers which manage third party or reusable controls inside the IDE.</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>‘projectname’.iml</td>
+         <td>file is an xml file which is used by the editor engine to get the configuration of java module which is used by this project.</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>pubspec.lock</td>
+         <td>is used by pub package manager in order to get the concrete versions of every immediate and transitive dependency that a package relies on.</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>pubspec.yaml</td>
+         <td>is the only file in all these files in which we have to make changes when we have to use any third party packages. This file is used by pub package manager again to get and load the packages that are used in the project which can also include include third party packages.</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>README.md</td>
+         <td>is an optional file which can contain any information that you would want to mention about the project.</td>
+      </tr>
    </tbody>
 </table>
        
