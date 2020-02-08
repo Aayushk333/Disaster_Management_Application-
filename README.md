@@ -127,5 +127,6 @@ Two of Flutter’s most powerful tools which allows users to build apps faster n
 
 Firebase is a powerful platform for mobile and web application. It can power an app’s backend, including **data storage, user authentication, static hosting, and more**. With Firebase, we can easily build mobile and web apps that scale from one user to one million.
 
+   <img src="firebase .png" style="width:500px;height:400px;">
 
 
