@@ -123,3 +123,9 @@ app.
 
 Two of Flutter’s most powerful tools which allows users to build apps faster namely hot reload and hot restart . Flutters hot reload feature helps to quickly and easily experiment, build UIs , add features and fix bugs within the code. The Flutter framework has been optimized to make rerunning build methods fast so that we can just rebuild anything that needs updating rather than having to individually change instances of widgets. Hot reload works by injecting updated source code files into the already running Dart Virtual Machine (VM).After this VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree allowing you to quickly view the effects of your changes. On the other hand a hot restart is like a completely new start of the app over the connected device. It collaborates all the changes in the app from beginning to end , and starts it into our connected device.
 
+## Firebase
+
+Firebase is a powerful platform for mobile and web application. It can power an app’s backend, including **data storage, user authentication, static hosting, and more**. With Firebase, we can easily build mobile and web apps that scale from one user to one million.
+
+
+
