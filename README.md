@@ -126,9 +126,9 @@ Two of Flutter’s most powerful tools which allows users to build apps faster n
 ## Firebase
 
 Firebase is a powerful platform for mobile and web application. It can power an app’s backend, including **data storage, user authentication, static hosting, and more**. With Firebase, we can easily build mobile and web apps that scale from one user to one million.
-
+   <p align='center'>
    <img src="firebase .png" style="width:600px;height:400px;">
-  
+   </p>
 ### Pros of Firebase over SQLite
 
 Firebase is a real-time database whereas SQLite is in-process database. Real time data processing means a continual input, process and output of data. Data must be processed in a small time period (or near real time). Immediate actions are performed by the real-time databases. Firebase is a distributed database and it gives realtime streaming support. SQLite is just the datastore where we can only store and retrieve the data and also it’s not a distributed database where if we want to share data between multiple users we can’t do it with SQLite.
