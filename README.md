@@ -177,9 +177,7 @@ Cloud Firestore is a flexible, scalable database for mobile, web, and server dev
  </table>
  
  
-      
-         
-
+***HOW DOES IT WORK***: Cloud Firestore is a cloud-hosted, NoSQL database that our iOS, Android, and web apps can access directly via native SDKs. Following Cloud Firestore's NoSQL data model, we store data in documents that contain fields mapping to values. These documents are stored in collections, which are containers for our documents that we can use to organize our data and build queries. Documents support many different data types, from simple strings and numbers, to complex, nested objects. We can also create subcollections within documents and build hierarchical data structures that scale as our database grows. The Cloud Firestore data model supports whatever data structure works best for our app.
 
 
 
