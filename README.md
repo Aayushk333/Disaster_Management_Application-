@@ -164,9 +164,19 @@ Cloud Firestore is a flexible, scalable database for mobile, web, and server dev
          <td>Expressive querying</td>
          <td>In Cloud Firestore, you can use queries to retrieve individual, specific documents or to retrieve all the documents in a collection that match your query parameters</td>
       </tr>
+      <tr>
+         <td>Realtime updates</td>
+         <td>Like Realtime Database, Cloud Firestore uses data synchronization to update data on any connected device. However, it's also designed to make simple, one-time fetch queries efficiently.</td>
+      </tr>
+      <tr>
+         <td>Offline support</td>
+         <td>Cloud Firestore caches data that your app is actively using, so the app can write, read, listen to, and query data even if the device is offline. When the device comes back online, Cloud Firestore synchronizes any local changes back to Cloud Firestore.</td>
+      </tr>
       
    </tbody>
  </table>
+ 
+ 
       
          
 
