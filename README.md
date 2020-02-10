@@ -138,4 +138,55 @@ Firebase is a real-time database whereas SQLite is in-process database. Real tim
 Firebase applications work even if your app temporarily loses its network connection. In addition, Firebase provides tools for persisting data locally, managing presence, and handling latency. Firebase apps automatically handle temporary network interruptions. Cached data is available while offline and Firebase resends any writes when network connectivity is restored.When you enable disk persistence, your app writes the data locally to the device so your app can maintain state while offline, even if the user or operating system restarts the app.
 
 
+### Firebase Authentication 
+
+Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to our app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more. I have used the Firebase Authentication SDK to manually integrate sign-in method into my app. The application authenticates users with their email addresses and passwords. The Firebase Authentication SDK provides methods to create and manage users that use their email addresses and passwords to sign in. Firebase Authentication also handles sending password reset emails.
+
+***HOW DOES IT WORK*** : To sign a user into the app, we first get authentication credentials from the user. These credentials are the user's email address and password. Then, we pass these credentials to the Firebase Authentication SDK. Firebase backend services will then verify those credentials and return a response to the client.After a successful sign in, we can access the user's basic profile information, and can control the user's access to data stored in other Firebase products.
+
+### Firebase Cloud Firestore
+
+Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform. Like Firebase Realtime Database, it keeps our data in sync across client apps through realtime listeners and offers offline support for mobile and web so we can build responsive apps that work regardless of network latency or Internet connectivity. Some of the Key Capabilities are listed in Table below : 
+
+<table>
+   <thead>
+      <tr>
+         <th>Feature</th>
+         <th>Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Flexibility</td>
+         <td>The Cloud Fire store data model supports flexible, hierarchical data structures. Store your data in documents, organized into collections. Documents can contain complex nested objects in addition to sub collections.</td>
+      </tr>
+      <tr>
+         <td>Expressive querying</td>
+         <td>In Cloud Firestore, you can use queries to retrieve individual, specific documents or to retrieve all the documents in a collection that match your query parameters</td>
+      </tr>
+      
+   </tbody>
+ </table>
+      
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
