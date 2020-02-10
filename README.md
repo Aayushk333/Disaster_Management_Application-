@@ -177,13 +177,37 @@ Cloud Firestore is a flexible, scalable database for mobile, web, and server dev
  </table>
  
  
+
 ***HOW DOES IT WORK***: Cloud Firestore is a cloud-hosted, NoSQL database that our iOS, Android, and web apps can access directly via native SDKs. Following Cloud Firestore's NoSQL data model, we store data in documents that contain fields mapping to values. These documents are stored in collections, which are containers for our documents that we can use to organize our data and build queries. Documents support many different data types, from simple strings and numbers, to complex, nested objects. We can also create subcollections within documents and build hierarchical data structures that scale as our database grows. The Cloud Firestore data model supports whatever data structure works best for our app.
 
 
+### Firebase Cloud Storage
 
+Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for our Firebase apps, regardless of network quality. We can use our SDKs to store images, audio, video, or other user-generated content. On the server, you can use Google Cloud Storage, to access the same files. Some of the Key Capabilities are listed in Table below : 
+ 
 
-
-
+<table>
+   <thead>
+      <tr>
+         <th>Feature</th>
+         <th>Description</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Robust Operations</td>
+         <td>Firebase SDKs for Cloud Storage perform uploads and downloads regardless of network quality. Uploads and downloads are robust, meaning they restart where they stopped, saving your users time and bandwidth.</td>
+      </tr>
+      <tr>
+         <td>Strong Security</td>
+         <td>Firebase SDKs for Cloud Storage integrate with Firebase Authentication to provide simple and intuitive authentication for developers. We can use the declarative security model to allow access based on filename, size, content type, and other metadata.</td>
+      </tr>
+      <tr>
+         <td>High Scalability</td>
+         <td>Cloud Storage for Firebase is built for exabyte scale when our app goes viral. Effortlessly grow from prototype to production using the same infrastructure that powers Spotify and Google Photos.</td>
+      </tr>      
+   </tbody>
+ </table>
 
 
 
