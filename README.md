@@ -209,6 +209,9 @@ Cloud Storage for Firebase is a powerful, simple, and cost-effective object stor
    </tbody>
  </table>
 
+***HOW DOES IT WORK*** : Developers use the Firebase SDKs for Cloud Storage to upload and download files directly from clients. If the network connection is poor, the client is able to retry the operation right where it left off, saving your users time and bandwidth.Cloud Storage stores your files in a Google Cloud Storage bucket, making them accessible through both Firebase and Google Cloud. This allows us, the flexibility to upload and download files from mobile clients via the Firebase SDKs, and do server-side processing such as image filtering or video transcoding using Google Cloud Platform. Cloud Storage scales automatically, meaning that there's no need to migrate to any other provider.The Firebase SDKs for Cloud Storage integrate seamlessly with Firebase Authentication to identify users, and we provide a declarative security language that lets you set access controls on individual files or groups of files, so you can make files as public or private as you want.
+
+**The application developed supports a very effective feature of extracting the user’s exact location in terms of latitude and longitude. This helps to know the user’s exact current location to provide him/ her emergency assistance**. This feature has been implemented in the app using the location plugin available in flutter plugins. The following section explains the methodology in detail
 
 
 
