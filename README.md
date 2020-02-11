@@ -219,7 +219,7 @@ Cloud Storage for Firebase is a powerful, simple, and cost-effective object stor
 Working with user’s location is a common task and Flutter packages abstract away most or all of the boilerplate required and directly give users the most optimised solution and less hassle to deal with.
 
 <p align='center'>
-   <img src="Location_plugin.png" style="width:250px;height:200px;">
+   <img src="Location_plugin.png" style="width:150px;height:100px;">
    </p>
 
 
@@ -242,7 +242,7 @@ hassle of any boilerplate code. Setting up is simple enough and the steps are su
       </tr>
       <tr>
          <td>Add permissions to the iOS Info.plist</td>
-         <td>{ <key>NSLocationAlwaysUsageDescription</key>} {<string>Needed to access location</string>} {<key>NSLocationWhenInUseUsageDescription</key>} {<string>Needed to access location</string>} </td>
+         <td> #<key>NSLocationAlwaysUsageDescription</key> $<string>Needed to access location</string> <key>NSLocationWhenInUseUsageDescription</key>                 **<string>Needed to access location</string>**     </td>
       </tr>
          
    </tbody>
