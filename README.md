@@ -214,10 +214,15 @@ Cloud Storage for Firebase is a powerful, simple, and cost-effective object stor
 **The application developed supports a very effective feature of extracting the user’s exact location in terms of latitude and longitude. This helps to know the user’s exact current location to provide him/ her emergency assistance**. This feature has been implemented in the app using the location plugin available in flutter plugins. The following section explains the methodology in detail
 
 
+## Working with GeoLocation
+
+Working with user’s location is a common task and Flutter packages abstract away most or all of the boilerplate required and directly give users the most optimised solution and less hassle to deal with.
 
 
+### Plugin 1: ‘location’
 
-
+The ‘location’ plugin is the simplest way to get and track a user’s location without the
+hassle of any boilerplate code. Setting up is simple enough and the steps are summarised in table below.
 
 
 
