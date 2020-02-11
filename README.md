@@ -242,12 +242,11 @@ hassle of any boilerplate code. Setting up is simple enough and the steps are su
       </tr>
       <tr>
          <td>Add permissions to the iOS Info.plist</td>
-         <td>key>NSLocationAlwaysUsageDescription</key> <string>Needed to access location</string> <key>NSLocationWhenInUseUsageDescription</key> <string>Needed to access location</string></td>
+         <td>"<key>NSLocationAlwaysUsageDescription</key> <string>Needed to access location</string> <key>NSLocationWhenInUseUsageDescription</key> <string>Needed to access location</string>"</td>
       </tr>
          
    </tbody>
    </table>
-
 
 
 
