@@ -218,11 +218,26 @@ Cloud Storage for Firebase is a powerful, simple, and cost-effective object stor
 
 Working with user’s location is a common task and Flutter packages abstract away most or all of the boilerplate required and directly give users the most optimised solution and less hassle to deal with.
 
+<p align='center'>
+   <img src="Location_plugin.jpg" style="width:500px;height:400px;">
+   </p>
+
 
 ### Plugin 1: ‘location’
 
 The ‘location’ plugin is the simplest way to get and track a user’s location without the
 hassle of any boilerplate code. Setting up is simple enough and the steps are summarised in table below.
+
+<table>
+   <thead>
+      <tr>
+         <th>Steps</th>
+         <th>"   "</th>
+      </tr>
+   </thead>
+   <tbody>
+   </tbody>
+   </table>
 
 
 
