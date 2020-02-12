@@ -285,8 +285,17 @@ The first step is to add the Google Maps Flutter plugin as a dependency in the p
 ### Adding a google map widget
 
 Then , add a GoogleMap widget that covers the entire screen. The widget has the following Properties / Methods :
-• onMapCreated: method that is called on map creation and takes a MapController as a parameter. • initialCameraPosition: required parameter that sets the starting camera position. Camera
+
+• **onMapCreated**: method that is called on map creation and takes a MapController as a parameter. • initialCameraPosition: required parameter that sets the starting camera position. Camera
 position describes which part of the world you want the map to point at.
+
+• **mapController**: manages camera function (position, animation, zoom). This pattern is similar to other controllers available in Flutter, for example TextEditingController.
+
+If we run the App at this time , it looks as shown in Figure below :
+
+<p align='center'>
+   <img src="Google_map_widget.png" style="width:150px;height:100px;">
+   </p>
 
 
 
