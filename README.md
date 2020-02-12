@@ -251,6 +251,22 @@ hassle of any boilerplate code. Setting up is simple enough and the steps are su
          
    </tbody>
    </table>
+   
+### Getting A one time Location
+
+This button when pressed returns the one time location of the user. The location package does not need much setup and the code is very straight forward.
+
+First , simply initialise a Location object.
+
+**var location = new Location();**
+
+The location is returned as a map with keys like “latitude”, “longitude”, etc.
+
+**Map<String, double> userLocation;**
+
+And finally, getting the location is as simple as:
+
+**userLocation = await location.getLocation();**
 
 
 
