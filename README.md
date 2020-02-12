@@ -256,6 +256,10 @@ hassle of any boilerplate code. Setting up is simple enough and the steps are su
 
 This button when pressed returns the one time location of the user. The location package does not need much setup and the code is very straight forward.
 
+<p align='center'>
+   <img src="Geolocation.png" style="width:150px;height:100px;">
+   </p>
+
 First , simply initialise a Location object.
 
 **var location = new Location();**
