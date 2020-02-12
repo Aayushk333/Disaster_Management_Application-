@@ -273,6 +273,24 @@ And finally, getting the location is as simple as:
 **userLocation = await location.getLocation();**
 
 
+## Implementing Google Maps To Display live location
+
+Flutter is Google's mobile app SDK for crafting high-quality native experiences on iOS and Android in record time. With the Google Maps Flutter plugin, you can add maps based on Google maps data to your application. The plugin automatically handles access to the Google Maps servers, map display, and response to user gestures such as clicks and drags. You can also add markers to your map. These objects provide additional information for map locations, and allow the user to interact with the map.
+
+### Setup
+
+The first step is to add the Google Maps Flutter plugin as a dependency in the pubspec.yaml file. The next step is getting an API key for both Android and iOS. Once we have the API key we can add it to our Flutter App in the application manifest or application delegate for Android or iOS respectively. Run flutter clean to make sure the API key changes are picked up on the next build.
+
+
+### Adding a google map widget
+
+Then , add a GoogleMap widget that covers the entire screen. The widget has the following Properties / Methods :
+• onMapCreated: method that is called on map creation and takes a MapController as a parameter. • initialCameraPosition: required parameter that sets the starting camera position. Camera
+position describes which part of the world you want the map to point at.
+
+
+
+
 
 
 
