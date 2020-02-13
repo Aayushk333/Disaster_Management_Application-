@@ -303,8 +303,12 @@ If we run the App at this time , it looks as shown in Figure below :
 It’s important to remember that the GoogleMap widget is just a Flutter widget, meaning we can treat it like any other widget. This includes placing another widget on top of it. By placing the GoogleMap widget inside of a Stack widget, we can layer other Flutter widgets on top of the map widget. We create a button that, when pressed toggles between two different map types: normal view and satellite view as shown in Figure below : 
 
 
+<p align='left'>
+   <img src="Normal_view.png" style="width:150px;height:100px;">
+   </p>
 
-
-
+<p align='right'>
+   <img src="Satellite_view.png" style="width:150px;height:100px;">
+   </p>
 
 
