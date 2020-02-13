@@ -308,7 +308,7 @@ It’s important to remember that the GoogleMap widget is just a Flutter widget,
    </p>
 
 <p align='right'>
-   <img src="Satellite_view.png" style="width:150px;height:100px;">
+   <img src="Satellite_view.png" style="width:75px;height:50px;">
    </p>
 
 
